@@ -1,14 +1,14 @@
 
-body{
+body {
 	font-family: Helvetica;
-	font-style: 22px;
+	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
 }
 
-.container{
+.container {
 	display:flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -53,19 +53,19 @@ div {
 	display: block;
 }
 
-.Main-Section{
+.Main-Section {
 	width: 1200px;
 	margin: auto;
-	padding-top: 70px;
+	padding-top: 69px;
 }
 
-#Mission{
+#Mission {
 	height: 700px;
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-	padding-top: 70px;
+	padding-top: 69px;
 }
 
-#Mission .mission-text{
+#Mission .mission-text {
 	text-align: center;
 	margin: auto;
 	background-color: black;
@@ -76,5 +76,23 @@ div {
 h2 h4 {
 	display: block;
 	font-weight: bold;
+}
+
+#Featured-Tea {
+	height: 700px;
+	width: 1000px;
+	margin: auto;
+	padding-top: 69px;
+}
+
+.teas {
+	padding: 5px;
+}
+
+.teas img {
+	height: 200px;
+	width: 300px;
+	display: block;
+	margin: 10px;
 }
 
